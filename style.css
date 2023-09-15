@@ -1,0 +1,452 @@
+body{
+    margin: 0;
+    
+    background-color: white;
+}
+.containerPrincipal{
+    height: 200vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:none;
+}
+.container{
+    height: 190vh;
+    width: 80%;
+    background-color: #d8d8d8;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.TopContent{
+    height: 300px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+    background-image: url(assets/pexels-jaymantri-4827.jpg);
+}
+.TopContent .TitleContent{
+    height: 100px;
+    background-color: none;
+    padding: 40px;
+}
+.TitleContent .Name{
+font-size: 30px;
+line-height: 20px;
+font-weight: 600;
+color: blanchedalmond;
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.TitleContent .Domaine{
+    font-size: 14px;
+    line-height: 14px;
+    color: #c7c7c7;
+    
+font-weight: 400;
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.TopContent .containerImageTexte{
+    height: 120px;
+    background-color: rgba(0, 0, 0, 0.507);
+    padding-left: 40px;
+    display: flex;
+    align-items: center;
+}
+.ProfilContent{
+    width: 250px;
+    height: 250px;
+    border: 1px solid none;
+}
+.Profil{
+ width: 250px;
+    height: 250px;
+    border: 10px solid white;
+    border-radius: 2px;
+    background-image: url(assets/2.jpg);
+    
+    background-size: cover;
+    background-repeat: none;
+}
+.ProfilContent .TextProfil{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 250px;
+    height: 250px;
+    flex-direction: column;
+}
+.Appel{
+height: 35px;
+width: 35px;
+border-radius: 2px;
+border: 2px solid #c7c7c7;
+display: flex;
+align-items: center;
+justify-content: center;
+margin-bottom: 10px;
+}
+.Appel img{
+    height: 25px;
+    width: 25px;
+}
+.TextProfil span{
+    color: #c7c7c7;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+}
+.BottomContent{
+    height: 120vh;
+    background-color: none;
+    display: flex;
+    margin-top: 80px;
+}
+.leftPart{
+    width: 300px;
+    height: 120vh;
+    background-color:none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 30px;
+}
+
+.leftPart .containerleftPart{
+  background-color: #c7c7c7;
+   width: 270px;
+   padding-bottom: 50px;
+    height: 690px;
+    border-radius:10px;
+}
+.rightPart{
+    width: calc(100% - 300px);
+    height: 100%;
+    background-color: none;
+
+}
+
+.Education{
+    height: 50px;
+    background-color:none;
+    width: 100%;
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+    .Education .textEducation{
+        height: 30px;
+        width: 80%;
+        border-bottom: 3px solid rgba(0, 0, 0, 0.637);
+        font-size: 22px;
+        font-weight: 500;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        line-height: 18px;
+        display: flex;
+        text-align: center;
+        align-items: center;
+    }
+    .textEducation .logoEducation{
+        height: 35px;
+        width: 35px;
+        border: 0px solid;
+        display: flex;
+        justify-content: center;
+        background-color: black;
+        align-items: center;
+    }
+    .textEducation .containerEducation{
+        margin-left: 20px;
+    }
+    .logoEducation img{
+        width: 30px;
+        height: 30px;
+    }
+
+    .skills{
+        height: 50px;
+        background-color:none;
+        width: 100%;
+        margin-top: 15px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        }
+        .skills .textSkills{
+            height: 30px;
+            width: 80%;
+            border-bottom: 3px solid #f8f8f8;
+            font-size: 22px;
+            font-weight: 500;
+            color: white;
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            line-height: 18px;
+            display: flex;
+            text-align: center;
+            align-items: center;
+        }
+        .textSkills .logoSkills{
+            height: 35px;
+            width: 35px;
+            border: 0px solid;
+            display: flex;
+            justify-content: center;
+            background-color: white;
+            align-items: center;
+        }
+        .textSkills .containerSkills{
+            margin-left: 20px;
+        }
+        .logoSkills img{
+            width: 30px;
+            height: 30px;
+        }
+
+    .GroupeContent{
+        width: 100%;
+        height: 125px;
+        background-color: none;
+        
+    }
+.containerUniversité{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: none;
+}
+.containerUniversité .CardUniversité{
+    width: 80%;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: none;
+    
+}
+.containerUniversité .UniversitéContent{
+    width: 80%;
+    background-color: none;
+    height: 50px;
+    display: flex;
+    align-items: center;
+}
+.UniversitéContent span{
+    font-size: 16px;
+    font-weight: 600;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    line-height: 14px;
+}
+.containerUniversité .AnnéeContent{
+    width: 20%;
+    background-color: none;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    
+}
+.AnnéeContent span{
+    font-size: 16px;
+    font-weight: 600;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    line-height: 14px;
+}
+.AnnéeAcademique{
+    width: 100%;
+    background-color: none;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    padding-bottom: 30px;
+}
+.AnnéeAcademique span{
+    font-size: 14px;
+    font-weight: 300;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    line-height: 14px;
+}
+
+.TextDescriptif{
+    width: 100%;
+    background-color: none;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    padding-bottom: 60px;
+}
+.TextDescriptif span{
+    font-size: 13px;
+    font-weight: 400;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    line-height: 20px;
+}
+
+.TitleSocial{
+height: 50px;
+background-color:none;
+width: 100%;
+margin-top: 20px;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.Hobbies{
+height: 50px;
+background-color:none;
+width: 100%;
+margin-top: 15px;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.Hobbies div{
+    height: 30px;
+    width: 80%;
+    border-bottom: 3px solid rgba(0, 0, 0, 0.637);
+    font-size: 22px;
+    font-weight: 500;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    line-height: 18px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+.TitleSocial div{
+    height: 30px;
+    width: 80%;
+    border-bottom: 3px solid rgba(0, 0, 0, 0.637);
+    font-size: 22px;
+    font-weight: 500;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    line-height: 18px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    
+}
+.containerleftPart .ContainerSite{
+    height: 160px;
+    width: 100%;
+    background-color:none;
+   display: flex;
+    align-items: center;
+}
+.ReseauSocial{
+    font-size: 16px;
+    margin-top: 18px;
+    font-weight: 400;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    line-height: 16px;
+}
+.ContainerHobbies{
+    background-color:none;
+    width: 100%;
+    height: 110px;
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+}
+.CardHobbies{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-gap: 20px;
+}
+.BottomLeftPart{
+    background-color: none;
+    width: 100%;
+    height: 300px;
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+}
+.ProgramLanguage{
+    background-color:black;
+    width: 100%;
+    height: 300px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    
+}
+.TotalPart{
+    display: flex;
+    height: 100%;
+    width: 100%;
+    justify-content: center;
+    background-color: none;
+}
+
+
+.arranger{
+    display: flex;
+    margin-top: 10px;
+}
+.TotalPart  .part1{
+    background-color:none;
+    height: 30px;
+    width: 10px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.part1 div{
+    height: 10px;
+    width: 10px;
+    border: 0px solid;
+    background-color: white;
+}
+.part2 div{
+    font-size: 16px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 500;
+    color: #c7c7c7;
+    line-height: 20px;
+}
+
+.TotalPart .part2{
+    background-color:none;
+    height: 30px;
+    width: 90px;
+    padding-left: 8px;
+    align-items: center;
+    display: flex;
+}
+
+.TotalPart .part3{
+    background-color:none;
+    height: 30px;
+    width: 90px;
+    display: flex;
+    padding-left:20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.part3 .Barre1{
+    height: 10px;
+    width: 70%;
+    background-color: gainsboro;
+    border: 1px solid gainsboro;
+}
+.part3 .Barre2{
+    height: 10px;
+    width: 30%;
+    background-color: none;
+    border: 1px solid gainsboro;
+}
+
+.part3 .Barre3{
+    height: 10px;
+    width: 60%;
+    background-color: gainsboro;
+    border: 1px solid gainsboro;
+}
+.part3 .Barre4{
+    height: 10px;
+    width: 40%;
+    background-color: none;
+    border: 1px solid gainsboro;
+}
